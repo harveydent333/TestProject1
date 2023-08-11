@@ -1,4 +1,4 @@
-using FigureCalculator;
+п»їusing FigureCalculator;
 using FigureCalculator.Figures;
 using FigureCalculator.StrategiesCalculateArea;
 
@@ -8,7 +8,7 @@ namespace Unit_Tests
     public class CirlceTests
     {
         /// <summary>
-        /// Проверка, что круг не может быть с отрицательным радиусом
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ РєСЂСѓРі РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ СЃ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Рј СЂР°РґРёСѓСЃРѕРј
         /// </summary>
         [TestMethod]
         public void TryCreateCircleWithNegativeRadius()
@@ -17,7 +17,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что круг с позитивным радиусом корректно создан
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ РєСЂСѓРі СЃ РїРѕР·РёС‚РёРІРЅС‹Рј СЂР°РґРёСѓСЃРѕРј РєРѕСЂСЂРµРєС‚РЅРѕ СЃРѕР·РґР°РЅ
         /// </summary>
         [TestMethod]
         public void CorrectCreateCircle()
@@ -26,7 +26,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что площадь круга не будет вычисляться без формулы
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ РїР»РѕС‰Р°РґСЊ РєСЂСѓРіР° РЅРµ Р±СѓРґРµС‚ РІС‹С‡РёСЃР»СЏС‚СЊСЃСЏ Р±РµР· С„РѕСЂРјСѓР»С‹
         /// </summary>
         [TestMethod]
         public void TryCalculateAreaWithoutFormula()
@@ -37,7 +37,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что корректно вычисляется периметр круга
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ РєРѕСЂСЂРµРєС‚РЅРѕ РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ РїРµСЂРёРјРµС‚СЂ РєСЂСѓРіР°
         /// </summary>
         [TestMethod]
         public void CorrectCalculatePerimeterCircle()
@@ -49,7 +49,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что корректно вычисляется площадь круга
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ РєРѕСЂСЂРµРєС‚РЅРѕ РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ РїР»РѕС‰Р°РґСЊ РєСЂСѓРіР°
         /// </summary>
         [TestMethod]
         public void CorrectCalculateAreaCircle()

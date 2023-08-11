@@ -1,4 +1,4 @@
-using FigureCalculator;
+п»їusing FigureCalculator;
 using FigureCalculator.Figures;
 using FigureCalculator.StrategiesCalculateArea;
 
@@ -8,7 +8,7 @@ namespace Unit_Tests
     public class TriangleTests
     {
         /// <summary>
-        /// Проверка, что треугольник является прямоугольным
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРє СЏРІР»СЏРµС‚СЃСЏ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Рј
         /// </summary>
         [TestMethod]
         public void IsTriangleRight()
@@ -18,7 +18,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что треугольник не является прямоугольным
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРє РЅРµ СЏРІР»СЏРµС‚СЃСЏ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Рј
         /// </summary>
         [TestMethod]
         public void IsNotTriangleRight()
@@ -28,7 +28,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что треугольника с такими сторонами не существует
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° СЃ С‚Р°РєРёРјРё СЃС‚РѕСЂРѕРЅР°РјРё РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚
         /// </summary>
         [TestMethod]
         public void TriangleIsNotExist()
@@ -37,7 +37,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что треугольника с такими сторонами существует
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° СЃ С‚Р°РєРёРјРё СЃС‚РѕСЂРѕРЅР°РјРё СЃСѓС‰РµСЃС‚РІСѓРµС‚
         /// </summary>
         [TestMethod]
         public void TriangleIsExist()
@@ -46,7 +46,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что периметр треугольника корреткно вычисляется
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ РїРµСЂРёРјРµС‚СЂ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РєРѕСЂСЂРµС‚РєРЅРѕ РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ
         /// </summary>
         [TestMethod]
         public void CorrectCalculatePerimeter()
@@ -58,7 +58,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что площадь треугольника не будет вычисляться без формулы
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ РїР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РЅРµ Р±СѓРґРµС‚ РІС‹С‡РёСЃР»СЏС‚СЊСЃСЏ Р±РµР· С„РѕСЂРјСѓР»С‹
         /// </summary>
         [TestMethod]
         public void TryCalculateAreaWithoutFormula()
@@ -69,7 +69,7 @@ namespace Unit_Tests
         }
 
         /// <summary>
-        /// Проверка, что площадь треугольника корректно вычисляется по формуле Герона
+        /// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ РїР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° РєРѕСЂСЂРµРєС‚РЅРѕ РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ РїРѕ С„РѕСЂРјСѓР»Рµ Р“РµСЂРѕРЅР°
         /// </summary>
         [TestMethod]
         public void CalculateAreaWithHeronFormula()
